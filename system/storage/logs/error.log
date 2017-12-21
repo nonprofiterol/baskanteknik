@@ -1,0 +1,105 @@
+2017-11-12 14:20:40 - Export/Import: Worksheet 'Categories' uses category_id '17' in the wrong order. Ascending order expected!
+2017-11-12 14:21:13 - Export/Import: Worksheet 'Categories' uses category_id '17' in the wrong order. Ascending order expected!
+2017-11-12 14:22:56 - Export/Import: Worksheet 'Categories' uses category_id '17' in the wrong order. Ascending order expected!
+2017-11-12 19:49:16 - PHP Notice:  Undefined variable: site_key in C:\wamp64\www\catalog101\catalog\view\theme\lexus_superstore_first\template\product\product_detail_hitech.tpl on line 320
+2017-11-12 19:49:26 - PHP Notice:  Undefined variable: site_key in C:\wamp64\www\catalog101\catalog\view\theme\lexus_superstore_first\template\product\product_detail_hitech.tpl on line 320
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'Specials'!
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'Discounts'!
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'Rewards'!
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'ProductOptions'!
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'ProductOptionValues'!
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'ProductAttributes'!
+2017-11-16 20:46:29 - Export/Import: Missing customer_groups in worksheet 'Specials'!
+2017-11-16 20:46:29 - Export/Import: Missing customer_groups in worksheet 'Discounts'!
+2017-11-16 20:46:29 - Export/Import: Missing customer_groups in worksheet 'Rewards'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'Specials'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'Discounts'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'Rewards'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'ProductOptions'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'ProductOptionValues'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'ProductAttributes'!
+2017-11-16 20:46:58 - Export/Import: Missing customer_groups in worksheet 'Specials'!
+2017-11-16 20:46:58 - Export/Import: Missing customer_groups in worksheet 'Discounts'!
+2017-11-16 20:46:58 - Export/Import: Missing customer_groups in worksheet 'Rewards'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'Specials'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'Discounts'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'Rewards'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'ProductOptions'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'ProductOptionValues'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'ProductAttributes'!
+2017-11-16 20:49:07 - Export/Import: Missing customer_groups in worksheet 'Specials'!
+2017-11-16 20:49:07 - Export/Import: Missing customer_groups in worksheet 'Discounts'!
+2017-11-16 20:49:07 - Export/Import: Missing customer_groups in worksheet 'Rewards'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '28' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '30' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '31' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '34' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '40' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '41' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '42' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '45' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '47' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '48' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '49' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'Specials'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'Discounts'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'Rewards'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'ProductOptions'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'ProductOptionValues'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'ProductAttributes'!
+2017-11-16 20:50:06 - Export/Import: Missing customer_groups in worksheet 'Specials'!
+2017-11-16 20:50:06 - Export/Import: Missing customer_groups in worksheet 'Discounts'!
+2017-11-16 20:50:06 - Export/Import: Missing customer_groups in worksheet 'Rewards'!
+2017-11-21 12:39:29 - PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/storage/modification/catalog/controller/extension/module/mkenqprocart.php on line 602
+2017-11-21 20:22:04 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-21 20:22:18 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-21 20:22:27 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-21 20:23:48 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 3:42:25 - PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/storage/modification/catalog/controller/extension/module/mkenqprocart.php on line 602
+2017-11-22 3:42:30 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 3:43:07 - PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/storage/modification/catalog/controller/extension/module/mkenqprocart.php on line 602
+2017-11-22 3:43:12 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 3:48:15 - PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ilkerdemir/webapps/quotercat101/quotercat101/catalog/controller/extension/module/mkenqprocart.php on line 562
+2017-11-22 3:48:20 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 3:52:18 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 3:54:21 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 7:53:59 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-25 21:41:02 - PHP Notice:  Undefined variable: site_key in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\product\product_detail_hitech.tpl on line 320
+2017-11-26 10:25:10 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:25:21 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:25:24 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:25:26 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:25:41 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:25:44 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:25:48 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:25:53 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:25:58 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:26:00 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:26:05 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:26:07 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:26:08 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:26:09 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:26:10 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:26:12 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:26:17 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:26:35 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:27:05 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:27:29 - PHP Notice:  Undefined variable: mkenqprocart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:32:00 - PHP Notice:  Undefined variable: text_cart in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:34:19 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:52:09 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:52:13 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:52:26 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:52:35 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:52:42 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:52:45 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:52:48 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:53:00 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:53:10 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:53:14 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:54:56 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:54:59 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:55:02 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:55:10 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 10:59:50 - PHP Notice:  Undefined variable: heading_title in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 113
+2017-11-26 11:16:23 - PHP Notice:  Undefined variable: mkenqpro in C:\wamp64\www\quotercat101\catalog\view\theme\lexus_superstore_first\template\common\header\default.tpl on line 117

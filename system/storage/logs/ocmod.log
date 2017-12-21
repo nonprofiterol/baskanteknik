@@ -1,0 +1,3561 @@
+2017-11-11 17:51:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-11-11 17:51:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-11-11 17:51:51 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.17) for OpenCart 2.x
+
+FILE: admin/language/arabi/common/menu.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 687
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-11-20 17:54:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Make An Enquiry Instead of Add To Cart Pro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/order')) {
+LINE: 317
+
+FILE: catalog/model/catalog/product.php
+CODE: return array(
+LINE: 10
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/affiliate.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_login.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_pay.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/bestseller.php
+CODE: $data['products'][] = array(
+LINE: 64
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/category.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/divido_calculator.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/ebay_listing.php
+CODE: $data['products'][] = array(
+LINE: 28
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 71
+
+FILE: catalog/controller/extension/module/filter.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/formillalivechat.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/google_hangouts.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/html.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/information.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/klarna_checkout_module.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/latest.php
+CODE: $data['products'][] = array(
+LINE: 71
+
+FILE: catalog/controller/extension/module/laybuy_layout.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/mkenqpro.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/mkenqprocart.php
+CODE: $data['products'][] = array(
+LINE: 140
+LINE: 286
+LINE: 540
+LINE: 647
+
+FILE: catalog/controller/extension/module/pavautosearch.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavblog.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavblogcategory.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavblogcomment.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavbloglatest.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavdeals.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavhomebuilder.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavmegamenu.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavnewsletter.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavproducttabs.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavreassurance.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavsliderlayer.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavverticalmenu.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pilibaba_button.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pp_button.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pp_login.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_direct_cards.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_server_cards.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/special.php
+CODE: $data['products'][] = array(
+LINE: 71
+
+FILE: catalog/controller/extension/module/store.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 102
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 224
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 220
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'][] = array(
+LINE: 450
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 257
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 142
+CODE: if ($product_info) {
+LINE: 171
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/affiliate.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/amazon_login.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/amazon_pay.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/banner.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/bestseller.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/carousel.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/category.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/divido_calculator.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/ebay_listing.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/filter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/formillalivechat.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/google_hangouts.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/html.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/information.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/klarna_checkout_module.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/latest.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/laybuy_layout.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqpro.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqprocart.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqpromail.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqpropopupcart.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavautosearch.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavblog.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavblogcategory.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavblogcomment.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavbloglatest.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavmegamenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavnewsletter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavproducttabs.tpl
+CODE: cart.add
+LINE: 83
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 83
+CODE: <?php echo $button_cart; ?>
+LINE: 83
+
+FILE: catalog/view/theme/default/template/extension/module/pavreassurance.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavsliderlayer.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavverticalmenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pilibaba_button.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pp_button.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pp_login.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/sagepay_direct_cards.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/sagepay_server_cards.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/slideshow.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/special.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/store.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/bestseller.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/category.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/featured.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/latest.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pagebuilder-rows.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavautosearch.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavblog.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavblogcategory.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavblogcomment.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavbloglatest.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavhomebuilder.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavmegamenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavnewsletter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavproducttabs.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavreassurance.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavsliderlayer.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavverticalmenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/special.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/module/pagebuilder-rows.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/module/pavhomebuilder.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: cart.add
+LINE: 53
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 53
+CODE: <?php echo $button_cart; ?>
+LINE: 53
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: cart.add
+LINE: 130
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 130
+CODE: <?php echo $button_cart; ?>
+LINE: 130
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: cart.add
+LINE: 133
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 133
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: cart.add
+LINE: 93
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 93
+CODE: <?php echo $button_cart; ?>
+LINE: 93
+
+FILE: catalog/view/theme/default/template/product/manufacturer_list.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: cart.add
+LINE: 364
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 364
+LINE: 456
+CODE: <?php echo $button_cart; ?>
+LINE: 295
+LINE: 364
+
+FILE: catalog/view/theme/default/template/product/review.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: cart.add
+LINE: 145
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 145
+CODE: <?php echo $button_cart; ?>
+LINE: 145
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: cart.add
+LINE: 93
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 93
+CODE: <?php echo $button_cart; ?>
+LINE: 93
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/category.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/compare.tpl
+CODE: cart.add
+LINE: 125
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 125
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/manufacturer_info.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/manufacturer_list.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product_detail_default.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 221
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product_detail_hitech.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 223
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product_filter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/products_related.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/review.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/search.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/special.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: id="button-cart"
+LINE: 295
+CODE: <?php echo $button_cart; ?>
+LINE: 295
+LINE: 364
+CODE: id="button-cart"
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 61
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <td class="text-right"><button type="button"
+LINE: 53
+CODE: <?php if ($product['price']) { ?>
+LINE: 105
+CODE: <?php if ($product['price']) { ?>
+LINE: 47
+CODE: <?php if ($product['price']) { ?>
+LINE: 68
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 350
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 120
+CODE: <?php if ($product['price']) { ?>
+LINE: 68
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 39
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+LINE: 293
+CODE: <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 2
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+LINE: 62
+
+FILE: catalog/view/theme/lexus_superstore_first/template/common/header.tpl
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/common/footer.php
+CODE: public function index() {
+LINE: 2
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 52
+
+FILE: catalog/view/theme/lexus_superstore_first/template/common/footer.tpl
+CODE: </body>
+LINE: 146
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.17) for OpenCart 2.x
+
+FILE: admin/language/arabi/common/menu.php
+CODE: $_['text_backup']
+LINE: 9
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 699
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/tr-tr/common/column_left.php
+CODE: $_['text_backup']
+LINE: 11
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-11-21 9:27:54 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Make An Enquiry Instead of Add To Cart Pro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/order')) {
+LINE: 317
+
+FILE: catalog/model/catalog/product.php
+CODE: return array(
+LINE: 10
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/affiliate.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_login.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_pay.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/bestseller.php
+CODE: $data['products'][] = array(
+LINE: 64
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/category.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/divido_calculator.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/ebay_listing.php
+CODE: $data['products'][] = array(
+LINE: 28
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 71
+
+FILE: catalog/controller/extension/module/filter.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/formillalivechat.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/google_hangouts.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/html.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/information.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/klarna_checkout_module.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/latest.php
+CODE: $data['products'][] = array(
+LINE: 71
+
+FILE: catalog/controller/extension/module/laybuy_layout.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/mkenqpro.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/mkenqprocart.php
+CODE: $data['products'][] = array(
+LINE: 140
+LINE: 286
+LINE: 540
+LINE: 647
+
+FILE: catalog/controller/extension/module/pavautosearch.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavblog.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavblogcategory.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavblogcomment.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavbloglatest.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavdeals.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavhomebuilder.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavmegamenu.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavnewsletter.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavproducttabs.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavreassurance.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavsliderlayer.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavverticalmenu.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pilibaba_button.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pp_button.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pp_login.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_direct_cards.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_server_cards.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/special.php
+CODE: $data['products'][] = array(
+LINE: 71
+
+FILE: catalog/controller/extension/module/store.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 102
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 224
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 220
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'][] = array(
+LINE: 450
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 257
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 142
+CODE: if ($product_info) {
+LINE: 171
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/affiliate.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/amazon_login.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/amazon_pay.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/banner.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/bestseller.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/carousel.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/category.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/divido_calculator.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/ebay_listing.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/filter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/formillalivechat.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/google_hangouts.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/html.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/information.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/klarna_checkout_module.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/latest.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/laybuy_layout.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqpro.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqprocart.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqpromail.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqpropopupcart.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavautosearch.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavblog.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavblogcategory.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavblogcomment.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavbloglatest.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavmegamenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavnewsletter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavproducttabs.tpl
+CODE: cart.add
+LINE: 83
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 83
+CODE: <?php echo $button_cart; ?>
+LINE: 83
+
+FILE: catalog/view/theme/default/template/extension/module/pavreassurance.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavsliderlayer.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavverticalmenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pilibaba_button.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pp_button.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pp_login.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/sagepay_direct_cards.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/sagepay_server_cards.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/slideshow.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/special.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/store.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/bestseller.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/category.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/featured.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/latest.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pagebuilder-rows.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavautosearch.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavblog.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavblogcategory.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavblogcomment.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavbloglatest.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavhomebuilder.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavmegamenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavnewsletter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavproducttabs.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavreassurance.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavsliderlayer.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavverticalmenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/special.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/module/pagebuilder-rows.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/module/pavhomebuilder.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: cart.add
+LINE: 53
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 53
+CODE: <?php echo $button_cart; ?>
+LINE: 53
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: cart.add
+LINE: 130
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 130
+CODE: <?php echo $button_cart; ?>
+LINE: 130
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: cart.add
+LINE: 133
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 133
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: cart.add
+LINE: 93
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 93
+CODE: <?php echo $button_cart; ?>
+LINE: 93
+
+FILE: catalog/view/theme/default/template/product/manufacturer_list.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: cart.add
+LINE: 364
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 364
+LINE: 456
+CODE: <?php echo $button_cart; ?>
+LINE: 295
+LINE: 364
+
+FILE: catalog/view/theme/default/template/product/review.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: cart.add
+LINE: 145
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 145
+CODE: <?php echo $button_cart; ?>
+LINE: 145
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: cart.add
+LINE: 93
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 93
+CODE: <?php echo $button_cart; ?>
+LINE: 93
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/category.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/compare.tpl
+CODE: cart.add
+LINE: 125
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 125
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/manufacturer_info.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/manufacturer_list.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product_detail_default.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 221
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product_detail_hitech.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 223
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product_filter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/products_related.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/review.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/search.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/special.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: id="button-cart"
+LINE: 295
+CODE: <?php echo $button_cart; ?>
+LINE: 295
+LINE: 364
+CODE: id="button-cart"
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 61
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <td class="text-right"><button type="button"
+LINE: 53
+CODE: <?php if ($product['price']) { ?>
+LINE: 105
+CODE: <?php if ($product['price']) { ?>
+LINE: 47
+CODE: <?php if ($product['price']) { ?>
+LINE: 68
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 350
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 120
+CODE: <?php if ($product['price']) { ?>
+LINE: 68
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 39
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+LINE: 293
+CODE: <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 2
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+LINE: 62
+
+FILE: catalog/view/theme/lexus_superstore_first/template/common/header.tpl
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/common/footer.php
+CODE: public function index() {
+LINE: 2
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 52
+
+FILE: catalog/view/theme/lexus_superstore_first/template/common/footer.tpl
+CODE: </body>
+LINE: 146
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.17) for OpenCart 2.x
+
+FILE: admin/language/arabi/common/menu.php
+CODE: $_['text_backup']
+LINE: 9
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 699
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/tr-tr/common/column_left.php
+CODE: $_['text_backup']
+LINE: 11
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-11-22 3:47:47 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Make An Enquiry Instead of Add To Cart Pro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/order')) {
+LINE: 317
+
+FILE: catalog/model/catalog/product.php
+CODE: return array(
+LINE: 10
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/affiliate.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_login.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_pay.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/bestseller.php
+CODE: $data['products'][] = array(
+LINE: 64
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/category.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/divido_calculator.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/ebay_listing.php
+CODE: $data['products'][] = array(
+LINE: 28
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 71
+
+FILE: catalog/controller/extension/module/filter.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/formillalivechat.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/google_hangouts.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/html.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/information.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/klarna_checkout_module.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/latest.php
+CODE: $data['products'][] = array(
+LINE: 71
+
+FILE: catalog/controller/extension/module/laybuy_layout.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/mkenqpro.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/mkenqprocart.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavautosearch.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavblog.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavblogcategory.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavblogcomment.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavbloglatest.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavdeals.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavhomebuilder.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavmegamenu.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavnewsletter.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavproducttabs.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavreassurance.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavsliderlayer.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pavverticalmenu.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pilibaba_button.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pp_button.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pp_login.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_direct_cards.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_server_cards.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/special.php
+CODE: $data['products'][] = array(
+LINE: 71
+
+FILE: catalog/controller/extension/module/store.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 102
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 224
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][] = array(
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 220
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'][] = array(
+LINE: 450
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 257
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 142
+CODE: if ($product_info) {
+LINE: 171
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/affiliate.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/amazon_login.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/amazon_pay.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/banner.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/bestseller.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/carousel.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/category.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/divido_calculator.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/ebay_listing.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/filter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/formillalivechat.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/google_hangouts.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/html.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/information.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/klarna_checkout_module.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/latest.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/laybuy_layout.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqpro.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqprocart.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqpromail.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/mkenqpropopupcart.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavautosearch.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavblog.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavblogcategory.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavblogcomment.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavbloglatest.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavmegamenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavnewsletter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavproducttabs.tpl
+CODE: cart.add
+LINE: 83
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 83
+CODE: <?php echo $button_cart; ?>
+LINE: 83
+
+FILE: catalog/view/theme/default/template/extension/module/pavreassurance.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavsliderlayer.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pavverticalmenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pilibaba_button.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pp_button.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/pp_login.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/sagepay_direct_cards.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/sagepay_server_cards.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/slideshow.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/extension/module/special.tpl
+CODE: cart.add
+LINE: 34
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 34
+CODE: <?php echo $button_cart; ?>
+LINE: 34
+
+FILE: catalog/view/theme/default/template/extension/module/store.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/bestseller.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/category.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/featured.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/latest.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pagebuilder-rows.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavautosearch.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavblog.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavblogcategory.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavblogcomment.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavbloglatest.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavhomebuilder.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavmegamenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavnewsletter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavproducttabs.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavreassurance.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavsliderlayer.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/pavverticalmenu.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/extension/module/special.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/module/pagebuilder-rows.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/module/pavhomebuilder.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: cart.add
+LINE: 53
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 53
+CODE: <?php echo $button_cart; ?>
+LINE: 53
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: cart.add
+LINE: 130
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 130
+CODE: <?php echo $button_cart; ?>
+LINE: 130
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: cart.add
+LINE: 133
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 133
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: cart.add
+LINE: 93
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 93
+CODE: <?php echo $button_cart; ?>
+LINE: 93
+
+FILE: catalog/view/theme/default/template/product/manufacturer_list.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: cart.add
+LINE: 364
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 364
+LINE: 456
+CODE: <?php echo $button_cart; ?>
+LINE: 295
+LINE: 364
+
+FILE: catalog/view/theme/default/template/product/review.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: cart.add
+LINE: 145
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 145
+CODE: <?php echo $button_cart; ?>
+LINE: 145
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: cart.add
+LINE: 93
+CODE: <i class="fa fa-shopping-cart"></i>
+LINE: 93
+CODE: <?php echo $button_cart; ?>
+LINE: 93
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/category.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/compare.tpl
+CODE: cart.add
+LINE: 125
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 125
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/manufacturer_info.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/manufacturer_list.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product_detail_default-bk-21-11-2017.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 221
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product_detail_default.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 226
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product_detail_hitech.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+LINE: 223
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/product_filter.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/products_related.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/review.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/search.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/lexus_superstore_first/template/product/special.tpl
+CODE: cart.add
+NOT FOUND - OPERATION SKIPPED!
+CODE: <i class="fa fa-shopping-cart"></i>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: id="button-cart"
+LINE: 295
+CODE: <?php echo $button_cart; ?>
+LINE: 295
+LINE: 364
+CODE: id="button-cart"
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php echo $button_cart; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 61
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 20
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <td class="text-right"><button type="button"
+LINE: 53
+CODE: <?php if ($product['price']) { ?>
+LINE: 105
+CODE: <?php if ($product['price']) { ?>
+LINE: 47
+CODE: <?php if ($product['price']) { ?>
+LINE: 68
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 350
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 120
+CODE: <?php if ($product['price']) { ?>
+LINE: 68
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+LINE: 39
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <?php if ($product['price']) { ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+LINE: 293
+CODE: <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 2
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+LINE: 62
+
+FILE: catalog/view/theme/lexus_superstore_first/template/common/header.tpl
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/common/footer.php
+CODE: public function index() {
+LINE: 2
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 52
+
+FILE: catalog/view/theme/lexus_superstore_first/template/common/footer.tpl
+CODE: </body>
+LINE: 146
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.17) for OpenCart 2.x
+
+FILE: admin/language/arabi/common/menu.php
+CODE: $_['text_backup']
+LINE: 9
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 699
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/tr-tr/common/column_left.php
+CODE: $_['text_backup']
+LINE: 11
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
