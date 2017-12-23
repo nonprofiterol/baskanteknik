@@ -110,7 +110,7 @@
 
 			<div class="media">
                 <div class="media-icon pull-left"><span class="fa fa-phone-square fa-3x"></span></div>
-                <div class="media-body"><h3>0 444 444 4444</h3></div>
+                <div class="media-body"><h3>0 212 613 16 17</h3></div>
 			</div>
 <!--
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 shopping-cart inner ">
