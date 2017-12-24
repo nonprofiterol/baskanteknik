@@ -3302,14 +3302,14 @@ ul.contact-us li a {
 }
 /* line 1235, opencart\opencart-modules.less */
 .newsletter_block .input-group {
-  width: 64%;
+  width: 50%;
 }
 /* line 1238, opencart\opencart-modules.less */
 .newsletter_block .box-heading {
   background: transparent;
   float: left;
   padding: 0;
-  width: 33%;
+  width: 48%;
   margin-right: 15px;
 }
 /* line 1244, opencart\opencart-modules.less */
