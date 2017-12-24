@@ -15,7 +15,7 @@
         <h1 class="title-product"><?php echo $heading_title; ?></h1>
 
         <?php if ($review_status) { ?>
-            <div class="rating">
+ <!--           <div class="rating">
                 <p>
                     <?php for ($i = 1; $i <= 5; $i++) { ?>
                         <?php if ($rating < $i) { ?>
@@ -28,19 +28,22 @@
                 <hr>
 
             </div>
+-->
         <?php } ?>
         <ul class="list-unstyled description">
             <?php if ($manufacturer) { ?>
                 <li><i class="fa fa-chevron-down"></i><b><?php echo $text_manufacturer; ?></b> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a></li>
             <?php } ?>
             <li><i class="fa fa-chevron-down"></i><b><?php echo $text_model; ?></b> <?php echo $model; ?></li>
-            <?php if ($reward) { ?>
+<!--            <?php if ($reward) { ?>
                 <li><i class="fa fa-chevron-down"></i><b><?php echo $text_reward; ?></b> <?php echo $reward; ?></li>
             <?php } ?>
+
             <?php if ($points) { ?>
                 <li><i class="fa fa-chevron-down"></i><b><?php echo $text_points; ?></b> <?php echo $points; ?></li>
             <?php } ?>
             <li><i class="fa fa-chevron-down"></i><b class="availability"><?php echo $text_stock; ?></b> <?php echo $stock; ?></li>
+-->
         </ul>
 
         <?php if ($price) { ?>
@@ -226,12 +229,13 @@
                 <div class="cart">
                     <button type="button" <?php if(isset($mkenqpro_flag) && $mkenqpro_flag && $mkenqpro_btntype == 1) { ?> onclick="addtomkenqproprodpage()"; <?php } else { ?> id="button-cart" <?php } ?> data-loading-text="<?php echo $text_loading; ?>" class="btn btn-shopping-cart"><?php if(isset($mkenqpro_flag) && $mkenqpro_flag && $mkenqpro_btntype == 1) { ?> <?php echo $mkenqpro_btntext; ?> <?php } else { ?> <?php echo $button_cart; ?> <?php } ?></button>
                 </div>
-                <div class="wishlist">  
+ <!--               <div class="wishlist">  
                     <a class="btn btn-theme-default" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a>
                 </div>
                 <div class="compare">
                     <a class="btn btn-theme-default" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product_id; ?>');"><?php echo $button_compare; ?></a>
                 </div>
+-->
             </div>
 
 

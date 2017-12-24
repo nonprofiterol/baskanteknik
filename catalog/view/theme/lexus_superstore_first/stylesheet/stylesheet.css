@@ -1242,7 +1242,7 @@ body[class*="layout-boxed-"] .d-content:before {
 /* line 205, opencart\layout.less */
 #header-main .inner {
   text-align: left;
-  margin-top: 25px;
+  margin-top: 10px;
   padding: 0;
 }
 /* line 209, opencart\layout.less */

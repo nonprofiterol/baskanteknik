@@ -15,11 +15,11 @@
 				<?php echo $column_left; ?>
   
    <section id="sidebar-main" class="col-md-<?php echo $SPAN[1];?>"><div id="content"><?php echo $content_top; ?>
-      <h1><?php echo $text_location; ?></h1>
+<!--       <h1><?php echo $text_location; ?></h1>-->
       <div class="wrapper">
-      <div class="contact-location hidden-xs">
-        <div id="contact-map"></div>
-      </div>
+ <!--     <div class="contact-location hidden-xs">
+        <div id="contact-map"></div> 
+      </div>-->
 
       <?php if ($locations) { ?>
       <h3><?php echo $text_store; ?></h3>

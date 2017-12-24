@@ -96,7 +96,7 @@
         </div>
       </div>
     </div>
-  -->
+
   <?php } ?> 
 
   <?php
@@ -114,9 +114,8 @@
     <?php if( $helper->getConfig('enable_custom_copyright', 0) ) { ?>
         <?php echo $helper->getConfig('copyright'); ?>
       <?php } else { ?>
-        <?php echo $powered; ?>. 
+        <?php echo $helper->getConfig('copyright'); ?>. 
       <?php } ?>
-    <p>Designed by <a href="http://www.themelexus.com/" title="LexusThemes - LexusThemes themes clubs">LexusThemes</a></p>
     </div>  
 
     <?php if( $content=$helper->getLangConfig('widget_paypal_data') ) {?>
@@ -126,7 +125,7 @@
     <?php } ?>
   </div>
 </div>
-
+  -->
 <div id="top"><a class="scrollup" href="#"><i class="fa fa-angle-up"></i>Top</a></div>
 
 <?php if( $helper->getConfig('enable_paneltool',0) ){  ?>
