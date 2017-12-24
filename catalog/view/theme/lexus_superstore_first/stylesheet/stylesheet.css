@@ -953,7 +953,7 @@ input.button:focus {
 }
 /* line 255, opencart\form.less */
 #search .category_filter select {
-  width: auto;
+  width: 180px;
   height: 34px;
   font-size: 13px;
   color: #8c8c8c;

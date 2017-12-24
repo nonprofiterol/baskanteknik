@@ -121,6 +121,7 @@
 						}
 						html += '<div class="media-body">';
 						html += '	<a  href="' + json[i]['link'] + '"><span>' + json[i]['label'] + '</span></a>';
+						/*
 						if(json[i]['sprice']){
 							html += '	<div>';
 							if (!json[i]['special']) {
@@ -135,6 +136,7 @@
 							html += '	</div> </div>';
 						}
 						html += '</li>';
+						*/
 					}
 				}
 				//html += '<li><a href="index.php?route=product/search&search='+g.term+'&category_id='+category_id+'&sub_category=true&description=true" onclick="window.location=this.href">'+text_view_all+'</a></li>';
